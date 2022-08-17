@@ -1,0 +1,35 @@
+{
+  "name": "recruitment-task",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/lab": "^5.0.0-alpha.68",
+    "@mui/material": "^5.4.0",
+    "@reduxjs/toolkit": "^1.7.2",
+    "axios": "^0.25.0",
+    "formik": "^2.2.9",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "react-toastify": "^8.1.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@mui/types": "^7.1.0",
+    "@types/node": "17.0.16",
+    "@types/react": "17.0.39",
+    "@types/react-toastify": "^4.1.0",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "typescript": "4.5.5"
+  }
+}
