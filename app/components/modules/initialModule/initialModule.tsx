@@ -48,6 +48,7 @@ const InitialModule = () => {
         m={2}
         variant="h3"
         color="white"
+        data-testid="initial-title"
         sx={{
           fontWeight: "700",
           fontSize: { xs: "24px", sm: "2.5rem" },
@@ -61,7 +62,6 @@ const InitialModule = () => {
         variant="contained"
         loading={loading}
         onClick={prepareLegoMinifigs}
-        data-testid="lets-go-btn"
       >
         {"Let's go"}
       </LoadingButton>

@@ -15,13 +15,13 @@ const getMinifigsFromArray = (
           Math.floor(Math.random() * (endRange - startRange + 1)) + startRange
         ];
       !selectedMinifigs.find(
-        (item) => item.set_num === generatedMinifig.set_num
+        (item) => item.set_num === generatedMinifig?.set_num
       ) &&
         generatedMinifig?.set_img_url &&
         selectedMinifigs.push(generatedMinifig);
     }
   } else {
-    for (let i = startRange; i < endRange; i++) {
+    for (let i = startRange; i <= endRange; i++) {
       selectedMinifigs.push(minifigsList[i]);
     }
   }
